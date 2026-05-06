@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="icon" href="assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="user-input">
+            <input type="text" placeholder="Enter the city name">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="fa-solid fa-cloud-sun"></i>
+                <p class="heading">Sunny</p>
+            </div>
+            <div class="temprature">
+                <p id="temp">26<sup>o</sup>c</p>
+                <p class="heading">Delhi</p>
+            </div>
+            <div class="info">
+                <div class="humidity">
+                    <p class="heading">Humidity</p>
+                    <p>40%</p>
+                </div>
+                <div class="wind">
+                    <p class="heading">Wind</p>
+                    <p>8km/h</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
