@@ -5,23 +5,38 @@ A modern weather application built using HTML, CSS, and JavaScript.
 ## Features
 
 - Search weather by city name
-- Shows temperature
-- Shows humidity and wind speed
-- Responsive UI
-- Weather icons
+- Real-time weather data using OpenWeather API
+- Shows:
+  - Temperature
+  - Weather description
+  - Humidity
+  - Wind speed
+- Loading state handling
+- Error handling for invalid cities
+- Enter key search support
+- Responsive and modern UI
 
 ## Tech Stack
 
-- HTML
-- CSS
-- JavaScript
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- OpenWeather API
 
-## Future Improvements
+## Live Demo
 
-- Live weather API integration
-- Dynamic weather icons
+
+## Learning Highlights
+
+This project helped me practice:
+
+- DOM manipulation
+- Async/Await
+- Fetch API
+- JSON data handling
+- Dynamic UI rendering
 - Error handling
-- Mobile responsiveness
+- Event handling
 
 ## Author
 

@@ -12,26 +12,26 @@
     <div class="container">
         <h1>Weather App</h1>
         <div class="user-input">
-            <input type="text" placeholder="Enter the city name">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input class="input-box" type="text" placeholder="Enter the city name">
+            <button class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
         <div class="card">
             <div class="icon">
-                <i class="fa-solid fa-cloud-sun"></i>
-                <p class="heading">Sunny</p>
+                <i class="fa-solid fa-face-smile" id="icon"></i>
+                <p class="heading" id="desc">Hi! <br>Enter the city name <br>To know the weather</p>
             </div>
             <div class="temprature">
-                <p id="temp">26<sup>o</sup>c</p>
-                <p class="heading">Delhi</p>
+                <p id="temp"></p>
+                <p class="heading" id="cityName"></p>
             </div>
             <div class="info">
                 <div class="humidity">
                     <p class="heading">Humidity</p>
-                    <p>40%</p>
+                    <p id="humidity"></p>
                 </div>
                 <div class="wind">
                     <p class="heading">Wind</p>
-                    <p>8km/h</p>
+                    <p id="wind"></p>
                 </div>
             </div>
         </div>
