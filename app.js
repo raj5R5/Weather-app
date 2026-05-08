@@ -13,7 +13,7 @@ let iconObj=document.querySelector("#icon")
 
 
 async function apifetching(city_name) {
-    let url=`https://api.openweathermap.org/data/2.5/weather?q=${city_name}&appid=0b5604cf5bd14477518cfd0a884e494f&units=metric`;
+    let url=`https://api.openweathermap.org/data/2.5/weather?q=${city_name}&appid=207fa07c272a61bfafd5ff160b9e4b33&units=metric`;
     
     try{
         let res=await fetch(url);
