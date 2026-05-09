@@ -24,7 +24,7 @@ A modern weather application built using HTML, CSS, and JavaScript.
 - OpenWeather API
 
 ## Live Demo
-
+  https://raj5r5.github.io/Weather-app/
 
 ## Learning Highlights
 
